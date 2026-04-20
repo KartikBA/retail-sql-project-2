@@ -4,7 +4,8 @@ import mysql.connector
 st.title("Retail Store Dashboard")
 
 conn = mysql.connector.connect(
-    host="mysql.railway.internal",
+    host="roundhouse.proxy.rlwy.net",
+    port=36501,
     user="root",
     password="zbkuAyymuAfMDBsXuyHoyjAxklNmoLaZ",
     database="railway"
