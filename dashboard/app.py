@@ -4,10 +4,10 @@ import mysql.connector
 st.title("Retail Store Dashboard")
 
 conn = mysql.connector.connect(
-    host="localhost",
+    host="mysql.railway.internal",
     user="root",
-    password="YOUR_PASSWORD",
-    database="retail_store"
+    password="zbkuAyymuAfMDBsXuyHoyjAxklNmoLaZ",
+    database="railway"
 )
 
 cursor = conn.cursor()
